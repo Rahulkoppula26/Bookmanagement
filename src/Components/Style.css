@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    background-color: #F7EFE5;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+}
+.header{
+    overflow-y: hidden;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav p{
+    font-weight: 900;
+    font-size:x-large;
+    color: #013fd1e3;
+    margin:0 6rem;
+}
+.viewmoreBtn{
+    text-align: center;
+}
+.viewmoreBtn button{
+    color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color:rgb(76, 76, 77);
+    font-weight: 800;
+    padding: 0 10px;
+    letter-spacing: 1px;
+}
+.all-books {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.popular-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+ .book-card{
+    width: 300px;
+    height: 380px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3rem;
+    overflow: hidden;
+
+}
+.card-title {
+    font-weight: 900;
+    text-align: center;
+    font-size:larger;
+    color:rgb(102, 4, 188);
+    background-color: white;
+
+}
+.card-author {
+    color: black;
+    font-style: italic;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+    background-color: white;
+}
+.popular-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.popular-text h2{
+    color: brown;
+}
+.popular-text ul {
+    display: flex;
+}
+.popular-text ul div li{
+    margin:0 2rem;
+    font-size: large;
+    font-style: italic;
+    font-weight: 600;
+
+}
+img {
+    width: 100%;
+}
+.book-card{
+    background-color: white;
+    height: 100%;
+}
+.bookdetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.book-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+.book-details img{
+    width: 300px;
+    height: 200px;
+}
+.book-details h3{
+    text-align: center;
+}
+.backtohome{
+    text-align: start;
+    margin-left: 3rem;
+}
+.entire-browse{
+    width: 100%;
+    height: 100%;
+    background-color: #F7EFE5;
+    overflow-x: hidden;
+}
+.browsebook{
+    background-color: #F7EFE5;
+    
+}
+.browsebook-cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.input-field {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #F7EFE5;
+}
+.input-field input{
+    padding: 0;
+    font-size:medium;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 254, 254);
+    margin-top: 5rem;
+
+}
+
+.input-field button{
+    font-size: medium;
+    padding: 0 5px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-left: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+    margin-top: 5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.add-id{
+    width: 200px;
+}
+.add-title{
+    width: 400px;
+    text-align: center;
+    margin-left: 0.5rem;
+}.add-author{
+    margin-right: 2px;
+    text-align: center;
+}
+.id-title{
+    display: flex;
+}
+.add-rating {
+    width: 300px;
+    text-align: center;
+}
+form input,textarea{
+    font-family: sans-serif;
+    font-weight: 800;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    font-size: large;
+    background-color: rgb(164, 184, 204);
+    border-radius: 10px;
+}
+.addbook{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.btn{
+    font-size: large;
+    font-weight: 800;
+    padding: 0 8px;
+    border-radius: 10px;
+    background-color: rgb(164, 184, 204);
+    
+}
+.btn:hover{
+    background-color: rgb(66, 98, 186);
+    color: white;
+    box-shadow: 0 0 20px rgb(65, 130, 163), 0 0 30px rgb(52, 107, 149), 0 0 60px rgb(53, 78, 161), 0 0 100px rgb(46, 87, 148);
+}
+.book-card button{
+    background-color: rgb(64, 85, 144);
+    color: white;
+    border: 3px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    padding: 0 5px;
+    margin: 5px;
+    font-size: medium;
+    font-weight: 600;
+}
+.book-card center {
+    background-color: transparent;
+}
